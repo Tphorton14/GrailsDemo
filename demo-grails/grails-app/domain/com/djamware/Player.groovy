@@ -2,7 +2,7 @@ package com.djamware
 
 class Player {
 
-    static belongsTo = [item: Team]
+    static belongsTo = [team: Team]
     String name
     Integer age
     String position
@@ -14,7 +14,7 @@ class Player {
         position size: 5..40, blank: false
     }
 
-    Strings toString () {
+    String toString () {
         name
     }
 }
